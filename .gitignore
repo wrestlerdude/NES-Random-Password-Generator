@@ -1,0 +1,5 @@
+#C gitignore for Windows + Linux
+*.exe
+*.obj
+*.out
+*.txt
