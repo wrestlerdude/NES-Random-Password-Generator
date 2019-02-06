@@ -1,3 +1,4 @@
+CC = gcc
 CCFLAGS = generate.c generators/metroid.c -o generate.exe
 
 build:
