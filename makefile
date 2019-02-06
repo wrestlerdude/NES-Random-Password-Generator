@@ -1,4 +1,6 @@
+CCFLAGS = generate.c generators/metroid.c -o generate.exe
+
 build:
-	gcc generate.c generators/metroid.c -o generate.exe
+	$(CC) $(CCFLAGS)
 clean:
 	rm *.exe
